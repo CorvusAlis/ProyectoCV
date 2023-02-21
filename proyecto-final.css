@@ -1,0 +1,27 @@
+.columna-izquierda{
+    width: 47%;
+    float: left;
+}
+
+.columna-derecha{
+    width: 43%;
+    float: right;
+}
+
+
+
+.sub-texto{
+    width: auto;
+    margin: auto;
+    display: inline-block;
+}
+
+.pfpic{
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+}
+
+ul{
+    list-style-type: none;
+}
