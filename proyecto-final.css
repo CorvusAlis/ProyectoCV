@@ -19,7 +19,8 @@ body{
 .columna-derecha{
     width: 35%;
     float: right;
-    margin-top: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     margin-right: 5%;
     background-color: #1A120B;
 }
@@ -29,13 +30,14 @@ body{
     margin: auto;
     display: inline-block;
     padding-bottom: 3px;
+    font-size: 25px;
 }
 
 .pfpic{
-    width: 250px;
-    height: auto;
-    margin-left: 20%;
-    margin-top: 2%;
+    width: 230px;
+    height: 230px;
+    margin-left: 25%;
+    margin-top: 3%;
     border-radius: 50%;
 }
 
@@ -43,9 +45,14 @@ ul{
     list-style-type: none;
 }
 
+.texto{
+    font-size: 17px;
+}
+
 .sub-li{
     margin-left: 5%;
     color: #D5CEA3;
+    font-size: 20px;
     font-weight: bold;
     border-bottom: 1px solid #D5CEA3;
     padding-bottom: 3px;
@@ -61,17 +68,11 @@ ul{
 }
 
 .sobre-mi{
-    margin-left: 3.7%;
+    margin-left: 4%;
 }
 
-/*Colores
-fondo: #E5E5CB - background
-acentos: #3C2A21 - iconos
-fuente: #1A120B - h1, h2, h3, p, columna-derecha
-fuente secundaria: #D5CEA3 - lista, sub-li
-*/
 h1{
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 0;
 }
 
@@ -82,7 +83,7 @@ h1,h2,h3{
 
 p{
     color: #1A120B;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .fa{
@@ -92,3 +93,22 @@ p{
 .fad{
     color: #E5E5CB;
 }
+
+button{
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 13%;
+    color: #1A120B;
+    background-color: #D5CEA3;
+
+}
+
+
+/*Colores
+fondo: #E5E5CB - background
+acentos: #3C2A21 - iconos
+fuente: #1A120B - h1, h2, h3, p, columna-derecha
+fuente secundaria: #D5CEA3 - lista, sub-li
+*/
