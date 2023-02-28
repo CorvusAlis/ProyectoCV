@@ -1,14 +1,12 @@
 *{
     font-family: 'Helvetica', 'Arial', sans-serif;
     text-align: justify;
-
+    position: relative;
 }
 
 body{
     background-color: #E5E5CB;
 }
-
-/*Config tamanos*/
 
 .columna-izquierda{
     width: 50%;
@@ -33,12 +31,21 @@ body{
     font-size: 25px;
 }
 
+.subtitulo:hover{
+    transform:scale(1.05);
+}
+
 .pfpic{
     width: 230px;
     height: 230px;
     margin-left: 25%;
-    margin-top: 3%;
+    margin-top: 5%;
     border-radius: 50%;
+    transition:transform 0.5s;
+}
+
+.pfpic:hover{
+    transform:scale(1.1);
 }
 
 ul{
@@ -47,6 +54,7 @@ ul{
 
 .texto{
     font-size: 17px;
+    margin-left: 10px;
 }
 
 .sub-li{
@@ -56,6 +64,11 @@ ul{
     font-weight: bold;
     border-bottom: 1px solid #D5CEA3;
     padding-bottom: 3px;
+    transition:transform 0.5s;
+}
+
+.sub-li:hover{
+    transform: scale(1.05);
 }
 
 .lista{
@@ -65,6 +78,8 @@ ul{
 
 .subtitulo{
     margin-top: 3%;
+    border-bottom: 1px solid #1A120B;
+    transition:transform 0.5s;
 }
 
 .sobre-mi{
@@ -76,7 +91,7 @@ h1{
     margin-bottom: 0;
 }
 
-h1,h2,h3{
+h1,h3{
     color: #1A120B;
     font-style: bolder; 
 }
@@ -105,6 +120,26 @@ button{
 
 }
 
+a, a:visited{
+    text-decoration: none;
+    color: #D5CEA3;
+}
+
+#popup{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #D5CEA3;
+
+}
+
+.boton-cerrar{
+    position: absolute;
+    margin-right: 10px;
+    top: 0;
+    right: 0;
+}
 
 /*Colores
 fondo: #E5E5CB - background
