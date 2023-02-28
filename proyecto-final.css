@@ -122,16 +122,22 @@ button{
 
 a, a:visited{
     text-decoration: none;
+}
+
+.link{
     color: #D5CEA3;
 }
 
+
+/*Pop-up con links udemy*/
+
 #popup{
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
+    height: auto;
+    width: 700px;
+    position: fixed;
+    margin: 5% 25%;
     z-index: 1;
     background-color: #D5CEA3;
-
 }
 
 .boton-cerrar{
@@ -139,6 +145,28 @@ a, a:visited{
     margin-right: 10px;
     top: 0;
     right: 0;
+}
+
+.lista-popup{
+    margin-top: 50px;
+    width: auto;
+    color: #1A120B;
+}
+
+.link-popup{
+    color: #1A120B;
+}
+
+#overlay{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    margin:0;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background:rgba(0, 0, 0, 0.5);
 }
 
 /*Colores
